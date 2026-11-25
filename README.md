@@ -2,7 +2,7 @@
 
 Official code, telemetry datasets, configuration manifests, and turnkey statistical reproduction scripts accompanying the research manuscript submitted to the **6th OPJU International Technology Conference (OTCON 6.0) on SMARTICON** (Paper ID: 404).
 
-**Authors:** Mayank Kumar (`mayankdagar11@gmail.com`), Dr. Antim Dev Mishra (`antimdevmishra@gmail.com`)  
+**Authors:** Mayank Kumar (`mayankdagar11@gmail.com`)
 **Affiliation:** Department of Computer Science & Engineering, Sushant University, Gurugram, India  
 
 ---
