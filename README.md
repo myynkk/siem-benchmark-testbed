@@ -4,8 +4,6 @@ Official code, telemetry datasets, configuration manifests, and turnkey statisti
 
 **Author:** Mayank Kumar (`mayankdagar11@gmail.com`)
 
-**Affiliation:** Department of Computer Science & Engineering, Sushant University, Gurugram, India
-
 ---
 
 ## Repository Structure
