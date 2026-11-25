@@ -1,0 +1,329 @@
+{
+  "timestamp_utc": "2026-10-26T10:02:18.513385Z",
+  "run_id": "20261026_144812",
+  "experiment_mode": "FULL_10_SESSION",
+  "dry_run": false,
+  "phase_duration_sec": 60,
+  "target_sessions": 10,
+  "memory_metric_definitions": {
+    "ws_mb": "Total Working Set in MB (Physical RAM including shared libraries)",
+    "priv_ws_mb": "Private Working Set in MB (WorkingSetPrivate, dedicated physical RAM)",
+    "commit_mb": "Private Committed Memory in MB (PrivateBytes, virtual memory commit charge)"
+  },
+  "session_accounting": [
+    {
+      "session_id": 1,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 2,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 3,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 4,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 5,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 6,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 7,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 8,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 9,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    },
+    {
+      "session_id": 10,
+      "status": "VALID",
+      "reason": "Completed all phases successfully"
+    }
+  ],
+  "burst_telemetry": {
+    "1": {
+      "burst_start_utc": "2026-10-26T09:20:33.861276Z",
+      "burst_end_utc": "2026-10-26T09:20:43.910549Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 10.05,
+      "errors": []
+    },
+    "2": {
+      "burst_start_utc": "2026-10-26T09:25:00.215620Z",
+      "burst_end_utc": "2026-10-26T09:25:10.163858Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 9.95,
+      "errors": []
+    },
+    "3": {
+      "burst_start_utc": "2026-10-26T09:29:26.473122Z",
+      "burst_end_utc": "2026-10-26T09:29:36.465385Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 9.99,
+      "errors": []
+    },
+    "4": {
+      "burst_start_utc": "2026-10-26T09:33:52.537823Z",
+      "burst_end_utc": "2026-10-26T09:34:02.533750Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 10.0,
+      "errors": []
+    },
+    "5": {
+      "burst_start_utc": "2026-10-26T09:38:16.126334Z",
+      "burst_end_utc": "2026-10-26T09:38:26.111997Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 9.99,
+      "errors": []
+    },
+    "6": {
+      "burst_start_utc": "2026-10-26T09:42:40.525148Z",
+      "burst_end_utc": "2026-10-26T09:42:50.518015Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 9.99,
+      "errors": []
+    },
+    "7": {
+      "burst_start_utc": "2026-10-26T09:47:02.847619Z",
+      "burst_end_utc": "2026-10-26T09:47:12.847681Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 10.0,
+      "errors": []
+    },
+    "8": {
+      "burst_start_utc": "2026-10-26T09:51:24.392843Z",
+      "burst_end_utc": "2026-10-26T09:51:34.405493Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 10.01,
+      "errors": []
+    },
+    "9": {
+      "burst_start_utc": "2026-10-26T09:55:48.792874Z",
+      "burst_end_utc": "2026-10-26T09:55:58.809568Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 10.02,
+      "errors": []
+    },
+    "10": {
+      "burst_start_utc": "2026-10-26T10:00:14.413257Z",
+      "burst_end_utc": "2026-10-26T10:00:24.449347Z",
+      "attempted": 100,
+      "succeeded": 100,
+      "duration_sec": 10.04,
+      "errors": []
+    }
+  },
+  "ingestion_records": {
+    "1": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "2": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "3": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "4": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "5": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "6": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "7": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "8": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "9": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    },
+    "10": {
+      "splunk": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100
+      },
+      "wazuh_alerts": {
+        "status": "VERIFIED",
+        "count": 100,
+        "expected": 100,
+        "rule_id": "100200"
+      },
+      "wazuh_archives": {
+        "status": "NOT_CONFIGURED",
+        "count": 0,
+        "note": "Archives disabled on manager; verified via alerts"
+      }
+    }
+  }
+}
